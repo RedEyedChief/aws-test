@@ -1,0 +1,7 @@
+export default {
+    apps : [{
+        name      : '<APP_NAME> - <ENV>',
+        script    : 'runner.js',
+        node_args : '-r dotenv/config'
+    }]
+};
